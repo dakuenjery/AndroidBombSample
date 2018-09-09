@@ -1,0 +1,12 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:title="Prefs">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_loadcount_list_entries"
+        android:entryValues="@array/pref_loadcount_list_entries"
+        android:key="pref_loadcount"
+        android:title="List preference" />
+</PreferenceScreen>
